@@ -1,7 +1,8 @@
-amount = float(input("Enter amount: "))
+buying_price=int(input("enter the  amount of buying price"))
+selling_price=int(input("enter the amount of  selling price"))
+total_price=int(input("enter the  amount of total price"))
+storage_price=int(input("enter the amount of storage price "))
 
 
-
-profit = amount / 1000
-
-print("Profit =", profit)
+profit=((selling_price-buying_price)* total_price)-storage_price
+print(f"total profit:{profit}")
