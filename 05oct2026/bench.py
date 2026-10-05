@@ -1,3 +1,6 @@
-student=73
-bench=3
-occupied _bench=
+duration=int(input("enter the  duration"))
+
+minutes=duration//60
+seconds=duration%60
+print(f"minutes:{minutes}")
+print(f"seconds:{seconds}")
