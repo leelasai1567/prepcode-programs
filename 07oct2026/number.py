@@ -1,7 +1,7 @@
 number=0
-for i in range(5):
-    for j in range(5):
+for i in range(34):
+    for j in range(34):
         number += 1
-        print(f"{number:07d}",end=" ")
+        print(f"{number:04d}",end=" ")
 
     print()    
