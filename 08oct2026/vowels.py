@@ -13,6 +13,7 @@ for ch in string:
 
 print("vowels:",vowels)
 print("charactres:",characters)
-print("special characters:",special)        
+print("special characters:",special)
+print("")        
 
 
